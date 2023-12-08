@@ -24,10 +24,10 @@ SONG_DOWNLOAD_DURATION = int(
 
 LOG_GROUP_ID = int(getenv("LOG_GROUP_ID",))
 
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "˹ѕᴄαꝛ ꭙ мυѕιᴄ˼")
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "˹𝗡𝙰𝚅𝙴𝙴𝙽 ꭙ 𝗠𝚄𝚂𝚒𝙲 𝅘𝅥𝅮˼")
 
 OWNER_ID = list(
-    map(int, getenv("OWNER_ID", "6627636245").split())
+    map(int, getenv("OWNER_ID", "6132821365").split())
 )
 
 HEROKU_API_KEY = getenv("HEROKU_API_KEY", None)
@@ -40,9 +40,9 @@ UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 GIT_TOKEN = getenv("GIT_TOKEN", None)
 
 SUPPORT_CHANNEL = getenv(
-    "SUPPORT_CHANNEL", "https://t.me/statusdairy2")
+    "SUPPORT_CHANNEL", "https://t.me/BESTODISHA")
 SUPPORT_GROUP = getenv(
-    "SUPPORT_GROUP", "https://t.me/voiceofheart0")
+    "SUPPORT_GROUP", "https://t.me/aoclifelifestyl")
 
 SUPPORT_HEHE = SUPPORT_GROUP.split("me/")[1]
 
